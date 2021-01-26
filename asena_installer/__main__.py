@@ -65,7 +65,7 @@ async def botlog (String, Api, Hash):
     ))
     KanalId = KanalId.chats[0].id
 
-    Photo = await Client.upload_file(file='asenalogo.jpg')
+    Photo = await Client.upload_file(file='')
     await Client(EditPhotoRequest(channel=KanalId, 
         photo=Photo))
     msg = await Client.send_message(KanalId, LANG['DONT_LEAVE'])
@@ -117,7 +117,7 @@ if __name__ == "__main__":
     config['CLEAN_WELCOME'] = "True"
     config['CONSOLE_LOGGER_VERBOSE'] = "False"
     config['COUNTRY'] = COUNTRY
-    config['DEFAULT_BIO'] = "@AsenaUserBot"
+    config['DEFAULT_BIO'] = "@WylineUserBot"
     config['GALERI_SURE'] = "60"
     config['CHROME_DRIVER'] = "/usr/sbin/chromedriver"
     config['GOOGLE_CHROME_BIN'] = "/usr/sbin/chromium"
@@ -131,7 +131,7 @@ if __name__ == "__main__":
     config['TMP_DOWNLOAD_DIRECTORY'] = "./downloads/"
     config['TZ'] = TZ
     config['TZ_NUMBER'] = "1"
-    config['UPSTREAM_REPO_URL'] = "https://github.com/Quiec/AsenaUserBot"
+    config['UPSTREAM_REPO_URL'] = "https://github.com/iibrahimwt13/WylineTGBot"
     config['WARN_LIMIT'] = "3"
     config['WARN_MODE'] = "gmute"
     config['LANGUAGE'] = LANGUAGE
