@@ -1,6 +1,6 @@
 # Coded By GitHub/Quiec TG/Fusuf #
 # Don't kang without permission #
-# @AsenaUserBot #
+# @WylineUserBot #
 
 
 import asyncio
